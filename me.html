@@ -21,6 +21,11 @@
     <img src="me.png" alt="Joshua Waters" class="profile-pic">
 
     <section>
+        <h6>Fun Fact (refresh page for a new fun fact):</h6>
+        <div id="funFact"></div>
+    </section>
+
+    <section>
         <h2>Introduction</h2>
         <p>I really enjoy math and computer science related classes. I've always been intrigued with subjects like that, and hope to keep exploring the world of computer science. I have one sister, and of course both my parents. So, it is just the four of us. My sister's name is Amber, and she is 7 years older than I am. My major is computer science and I currently don't minor in anything but plan on enrolling in a minor later. </p>
     </section>
@@ -59,21 +64,22 @@
 
     </script>
 
-    <script>
-  const facts = [
-    "Honey never spoils.",
-    "Bananas are berries, but strawberries aren't.",
-    "A group of flamingos is called a 'flamboyance'."
-  ];
-
-  function displayRandomFact() {
-    const randomFact = facts[Math.floor(Math.random() * facts.length)];
-    document.getElementById("funFact").innerText = randomFact;
-  }
-
-  window.onload = displayRandomFact;
-</script>
-
-<div id="funFact"></div>
+<script>
+    const facts = [
+      "Honey never spoils.",
+      "Bananas are berries, but strawberries aren't.",
+      "A group of flamingos is called a 'flamboyance'.",
+      "Bats are only flying mammals",
+      "Tomatoes are a fruit, not a vegetable",
+      "Snakes smell with their tongue"
+    ];
+  
+    function displayRandomFact() {
+      const randomFact = facts[Math.floor(Math.random() * facts.length)];
+      document.getElementById("funFact").innerText = randomFact;
+    }
+  
+    window.onload = displayRandomFact;
+  </script>
 </body>
 </html>
