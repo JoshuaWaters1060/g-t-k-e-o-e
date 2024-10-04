@@ -25,6 +25,21 @@ header {
     color: white;
 }
 
+.nav-bar {
+    display: flex;
+    list-style: none;
+    gap: 30px
+
+}
+
+.nav-bar a,
+button {
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 15%
+}
+
 h1, h2 {
     text-align: center;
     color: #333;
@@ -44,9 +59,11 @@ ul {
 }
 
 a {
-    color: #2024ab;
+    color: black;
 }
 
 .favorite-color {
     color: purple;
 }
+
+
