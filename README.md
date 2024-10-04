@@ -1,5 +1,4 @@
 # g-t-k-e-o-e
-
 ## Author
 Joshua Waters [email:joshuatwaters@lewisu.edu](mailto:joshuatwaters@lewisu.edu)
 
