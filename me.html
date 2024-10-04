@@ -58,5 +58,22 @@
         }
 
     </script>
+
+    <script>
+  const facts = [
+    "Honey never spoils.",
+    "Bananas are berries, but strawberries aren't.",
+    "A group of flamingos is called a 'flamboyance'."
+  ];
+
+  function displayRandomFact() {
+    const randomFact = facts[Math.floor(Math.random() * facts.length)];
+    document.getElementById("funFact").innerText = randomFact;
+  }
+
+  window.onload = displayRandomFact;
+</script>
+
+<div id="funFact"></div>
 </body>
 </html>
